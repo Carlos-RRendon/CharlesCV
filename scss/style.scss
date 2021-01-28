@@ -1,0 +1,63 @@
+@import './colors';
+@import './mixin';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+.personal-info{
+
+   
+    *{
+        @include element-property
+    }
+
+    p{
+        width: 30%;
+        text-align: justify;
+        @include font-property;
+    }
+
+    h1,h2{
+        color: $title-color
+    }
+
+    h1{
+        font-size: $font-size-title
+    }
+    h2{
+        font-size: $font-size-subtitle
+    }
+
+    @include general-container-style;
+
+}
+
+.img-container{
+        
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+
+    img{
+        @include image-property;
+    }
+
+}
+
+.info{
+    @include general-container-style;
+
+    h2,h3{
+        color: $title-color;
+        @include element-property;
+    }
+
+    h2{
+        font-size: $font-size-subtitle;
+    }
+
+}
