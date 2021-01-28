@@ -1,0 +1,37 @@
+@import 'colors';
+
+@mixin general-container-style {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+    margin: 10px 0 15px;
+    width: 60%;
+}
+
+@mixin element-property {
+
+    margin: 20px 10px 0 0;
+    
+}
+
+
+
+@mixin image-property {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    
+}
+
+@mixin font-property {
+
+    font-size: $font-size-normal;
+    color: $normal-font-color;
+
+    
+}
