@@ -8,8 +8,16 @@
     font-family: sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .personal-info{
 
+    
    
     *{
         @include element-property

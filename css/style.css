@@ -5,6 +5,13 @@
   font-family: sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .personal-info {
   border: 3px solid black;
   display: flex;
@@ -12,6 +19,7 @@
   align-items: flex-start;
   padding: 25px;
   margin: 10px 0 15px;
+  width: 60%;
 }
 .personal-info * {
   margin: 20px 10px 0 0;
@@ -52,6 +60,7 @@
   align-items: flex-start;
   padding: 25px;
   margin: 10px 0 15px;
+  width: 60%;
 }
 .info h2, .info h3 {
   color: #0070C0;
